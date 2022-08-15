@@ -1,0 +1,543 @@
+* {
+	padding: 0;
+	height: auto;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'raleway';
+}
+#contenedor {
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contenedor header {
+	width: 1000px;
+	height: 69px;
+	float: left;
+}
+
+#logo   {
+	height: 69px;
+	width: 400px;
+	background-color: #004098;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+#logo2   {
+	height: 69px;
+	width: 400px;
+	background-color: #004098;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-left: 41px;
+	padding-top: 13px;
+}
+header nav  {
+	width: 600px;
+	height: 69px;
+	float: left;
+	font-weight: lighter;
+	background-color: #C81518;
+	color: #FFFFFF;
+	font-style: italic;
+}
+header nav ul {
+	list-style-type: none;
+	margin-top: 0px;
+}
+header nav ul li {
+	width: 150px;
+	height: 69px;
+	background-color: #004098;
+	float: left;
+	font-family: raleway;
+	font-style: normal;
+	padding-top: 32px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: middle;
+	color: #FDFDFD;
+	font-weight: 100;
+	font-size: small;
+	padding-left: 41px;
+}
+header nav ul li:hover  {
+	width: 150px;
+	height: 69px;
+	background-color: #FFFFFF;
+	float: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	padding-top: 31px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: middle;
+	color: #004098;
+	font-size: 11px;
+	font-weight: 800;
+}
+.active{
+	background: white;
+	color: #004098;
+}
+main {
+	width: 1000px;
+	height: 500px;
+	background-color: #00060C;
+	background-image: url(../img/spider-man.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 136px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+.text1   {
+	font-size: 0;
+	font-style: normal;
+	font-family: raleway;
+	font-variant: normal;
+	color: #FFFFFF;
+	font-weight: 900;
+	text-indent: 111px;
+	margin-top: 58px;
+	width: 523px;
+}
+#secHome {
+	width: 700px;
+	height: 600px;
+	float: left;
+	background-size: cover;
+}
+#art1home {
+	width: 700px;
+	height: 300px;
+	float: left;
+	background-image: url(../img/con1.jpg);
+	background-size: cover;
+}
+#art2home {
+	width: 700px;
+	height: 300px;
+	float: left;
+	background-image: url(../img/con2.jpg);
+	background-size: cover;
+}
+
+
+aside{
+	height: 600px;
+	background-color: #292929;
+	width: 300px;
+	float: left;
+	background-image: url(../img/kakaroto.jpg);
+}
+main .text1 .titulo1 {
+	
+	
+	font-weight: bold;
+	font-size: 40px;
+	width: auto;
+	
+}
+.boton_azul{
+	padding: 5px 30px 5px 30px;
+	background: #004098;
+	color: #FFFFFF;
+	font-family: 'raleway';
+	border-radius: none;
+	text-align: center;
+	margin-top: -13px;
+	margin-left: 377px;
+	font-weight: 700;
+	font-size: small;
+	text-indent: -4px;
+	
+}
+#contenedor main .text1 {
+	font-size: 26px;
+
+}
+main .text1 .p1 {
+	width: 522px;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: right;
+	font-style: italic;
+}
+
+
+
+
+
+section articule {
+	float: left;
+	width: 700px;
+	background: #CF2D2D;
+	height: 298px;
+	
+}
+#txtsec1{
+	color: white;
+	position: relative;
+	left: auto;
+	right: auto;
+	top: 250px;
+	width: 700px;
+	text-align: center;
+
+
+}
+#txtsec2{
+	color: white;
+	position: relative;
+	width: 700px;
+	top: 250px;
+	text-align: center;
+
+
+}
+
+footer{
+	height: 200px;
+	background-color: #004098;
+	clear: left;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#ConFoo {
+	width: 500px;
+	height: 66px;
+	float: left;
+	margin-top: 54px;
+	color: #FFFFFF;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-style: italic;
+	font-size: medium;
+}
+
+#ConFoo2 {
+	width: 456px;
+	height: 66px;
+	float: left;
+	color: #FFFFFF;
+	padding-top: 40px;
+	padding-right: 22px;
+	padding-bottom: 22px;
+	padding-left: 22px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: 600;
+	font-size: small;
+	text-align: justify;
+}
+#dagoo {
+	width: 1000px;
+	height: 40px;
+	background-color: #050505;
+	text-align: center;
+	color: #FFFFFF;
+	font-style: italic;
+	font-weight: 700;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 11px;
+}
+
+
+.foocol{
+	margin: 50px;
+		color: white;
+		font-weight: 400;
+
+}
+header #logo img {
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-left: 63px;
+}
+header #logo img {
+}
+
+#con1-secc{
+	width: 500px;
+	height: 400px;
+	background: #44E4D3;
+	background-image: url(../img/consola/play%204.png);
+}
+#SeccCons1 {
+	width: 500px;
+	height: 400px;
+	float: left;
+	background-color: #FB5558;
+	background-image: url(../img/consola/play%204.png);
+	background-repeat: no-repeat;
+}
+#SeccCons2 {
+	width: 500px;
+	height: 400px;
+	float: left;
+	background-color: #FFFFFF;
+	padding-top: 103px;
+}
+#parraCon {
+	font-weight: 900;
+	font-size: 24px;
+}
+#parraCon2 {
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: -7px;
+}
+
+
+#titleCon1 {
+	width: auto;
+	text-align: center;
+	color: #141D7F;
+	font-size: 14px;
+	font-weight: 900;
+}
+#titleCon2 {
+	text-align: center;
+	font-weight: 900;
+	font-size: xx-large;
+	color: #004098;
+}
+.boton_azul2 {
+	width: 120px;
+	height: 40px;
+	background-color: #004098;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: center;
+	margin-left: 194px;
+}
+
+
+
+
+#con2-secc{
+	margin-right: 0;
+	margin-left: 200px;
+	margin-bottom: 0;
+	float: right;
+	width: 500px;
+	height: 400px;
+	background: #44E4D3;
+}
+#secCons2 {
+	width: 1000px;
+	height: 290px;
+	float: left;
+	background-image: url(../img/consola/play4-frente.jpg);
+	text-align: center;
+	padding-top: 21px;
+	background-repeat: no-repeat;
+}
+#secCons3 {
+	width: 1000px;
+	height: 355px;
+	float: left;
+	background-image: url(../img/consola/sec.png);
+}
+#titleGames {
+	text-align: center;
+	color: #004098;
+	font-weight: 900;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	font-size: 35px;
+
+}
+
+
+
+
+
+
+
+
+#juegos1{
+	float: left;
+	width: 900px;
+	height: 600px;
+	color: #38D845;
+	text-align: center;
+}
+#game-spi {
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	float: left;
+}
+#game-god {
+	width: 300px;
+	height: 300px;
+	float: left;
+
+}
+#game-dra {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#game-call {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#game-ghost {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#game-bat {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.botonBlanco {
+	width: 152px;
+	height: 36px;
+	background-color: #FFFFFF;
+	color: #004098;
+	border-color: #004098;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	font-weight: 800;
+}
+
+#secGame2 {
+	width: 1000px;
+	height: 150px;
+	text-align: center;
+	float: left;
+	background-color: #004098;
+}
+#fondoGames1 {
+	width: 401px;
+	float: left;
+	margin-top: -1011px;
+	margin-left: -171px;
+	position: absolute;
+	z-index: -123;
+}
+#fondoGames2 {
+	width: 206px;
+	height: 314px;
+	position: absolute;
+	z-index: -71;
+	left: 1086px;
+	margin-top: -647px;
+}
+
+
+
+
+
+
+
+#con3-secc{
+	width: 1000px;
+	height: 500px;
+	background-image: url(../img/consola/play4-frente.jpg);
+	background-repeat: no-repeat;
+}
+#secContac {
+	width: 1000px;
+	height: 148px;
+	background-image: url(../img/contacto/Grupo%203.png);
+	float: left;
+	text-align: center;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.fom {
+	width: 378px;
+	border: 2px solid #004098;
+	height: 31px;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 0px;
+	margin-top: 13px;
+}
+
+#contenedorLog {
+	width: 700px;
+	height: 300px;
+	background-color: #F04043;
+	margin-left: 151px;
+	padding-top: 101px;
+}
+#fomNom {
+	float: left;
+	color: #004098;
+	font-family: raleway;
+	font-style: normal;
+	font-weight: 100;
+	padding-right: 26px;
+	text-align: center;
+	padding-left: 224px;
+	padding-top: 0px;
+}
+#sectCont2 {
+	width: 1000px;
+	height: 570px;
+	float: left;
+	margin-top: 146px;
+	background-image: url(../img/contacto/Enmascarar%20grupo%204.png);
+	font-family: raleway;
+	font-style: normal;
+	color: #004098;
+	font-weight: 100;
+}
+#secOnline {
+	width: 1000px;
+	height: 600px;
+	float: left;
+	background-image: url(../img/online/Imagen%206@2x.jpg);
+}
+#secOnline2 {
+	width: 660px;
+	height: 400px;
+	float: left;
+	background-image: url(../img/online/Grupo%204.png);
+	margin-left: 176px;
+	margin-top: -42px;
+	padding-left: 173px;
+	padding-top: 45px;
+	background-repeat: no-repeat;
+}
+#titleOnl2 {
+	color: #004098;
+	width: 0px;
+	font-style: italic;
+	margin-left: 123px;
+	font-weight: 900;
+	font-size: 31px;
+}
